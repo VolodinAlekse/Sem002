@@ -11,4 +11,6 @@ System.Console.WriteLine($"Случайное число: {number}");
 int LeftNumber = number / 100;
 int rightNumber = number % 10;
 
-System.Console.WriteLine($"{number/100}{number % 10}");
+System.Console.WriteLine($"{number / 100}{number % 10}");
+
+number = ((number / 100)*10) + (number % 10);
